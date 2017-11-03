@@ -1,0 +1,26 @@
+<h1>Congratulations! You are now logged in!</h1>
+<!-- <%= %> -->
+
+
+Username: <%= @user.username %>
+<br/>
+Password: <%= @user.password %>
+<br/>
+Fullname: <%= @user.fullname %>
+<br/>
+Street address: <%= @user.streetaddress %>
+<br/>
+City: <%= @user.city %>
+<br/>
+State: <%= @user.state %>
+<br/>
+Postalcode: <%= @user.postalcode %>
+<br/>
+Country <%= @user.country %>
+<br/>
+Email: <%= @user.email %>
+<br>
+<br>
+<br>
+<h3>Click the link below to logout of your account</h3>
+<%= link_to('Logout','/users/logout')%>
